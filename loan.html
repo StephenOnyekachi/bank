@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan</title>
+
+    <link href="image/logo.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+</head>
+<body onload="slider()">
+    <div class="bg">
+        <div id="preloader">
+            <div class="fa fa-spinner fa-3x fa-spin" id="preloader-icon"></div>
+        </div>
+
+        <!-- <nav class="navbar navbar-fixed-top nav"> -->
+        <nav>
+            <!-- <input type="checkbox" id="menu-bar"> -->
+            <label for="" class="bar-icons">
+                <i class="fa fa-navicon" id="bars" width="50px" onclick="bars()"></i>
+                <i class="fa fa-remove" id="cancel" width="50px" onclick="cancel()"></i>
+            </label>
+
+            <div class="navbar-brand logo col-sm-4">
+                <a href="home.html">
+                    <div class="logoimg">
+                        <img src="image/logo.png"> 
+                        <span>standard bank</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="board-nav" id="board_nav">
+                <ul>
+                    <li class="fa fa-pie-chart"><a href="dashboard.html">dashboard</a></li>
+                    <li class="fa fa-user-o"><a href="profile.html">my profile</a></li>
+                    <li class="fa fa-share-square-o"><a href="change.html">change password</a></li>
+
+                    <li class="fa fa-file-text-o"><a href="all.html">my statement</a></li>
+                    <li class="fa fa-file-text-o"><a href="all.html">domestic transfer</a></li>
+                    <li class="fa fa-angle-double-right"><a href="all.html">inter bank transfer</a></li>
+                    <li class="fa fa-angle-double-right"><a href="all.html">wired transfer</a></li>
+
+                    <li class="nav-active fa fa-briefcase"><a href="loan.html">apply for loan</a></li>
+                    <li class="fa fa-envelope-o"><a href="message.html">messages</a></li>
+                    <li id="google_translate_element" class="trans"><a>translate</a></li>
+                    <li class="fa fa-power-off"><a href="login.html">log out</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="collapse navbar-collapse navbars col-ms-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="service.html">service</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li id="google_translate_element" class="trans"><a>translate</a></li>
+                    <li class="nav-active"><a href="login.html">get started</a></li>
+                </ul>
+            </div> 
+            <div id="google_translate_element" style="position: absolute; top: 100px; left: 10px;"></div> -->
+        </nav>
+
+        <div class="board">
+            <div class="banner2-content" id="banner2-content">
+                <div style="margin-top: 70px;" class="welcome">
+                    <h3>hi, 
+                        <b>user name</b> <br>
+                        <p>banking like never before.</p>
+                    
+                    </h3>
+                    <br>
+                    
+                </div>
+
+                <div class="contact">
+                    <h3 class="dil">set password</h3>
+                    <form action="" method="">
+                        <div class="help">
+                            <label class="dils">to:</label><br>
+                            <input type="text" placeholder="custormer care">
+                        </div>
+                        <div class="help">
+                            <label class="dils">amount:</label><br>
+                            <input type="number" placeholder="type your loan amount">
+                        </div>
+                        <div class="help">
+                            <label class="dils">message:</label><br>
+                            <textarea name="" id="" cols="50" rows="5">enter your message here</textarea>
+                        </div>
+                        <div class="help">
+                            <button>submit</button>
+                        </div>
+                    </form>
+                    <h3><b>our online banking</b></h3>
+                    <h3>more than just a bank</h3>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="css/js.js"></script>
+</body>
+</html>
